@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    margin-left: 12.5rem;
+}
+.home{
+    color:#FF5555;
+    font-weight: bold;
+   
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 300px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.download {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right : 100px;
+    border-radius: 3px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    font-family: 'Inter';
+}
+
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #333;
+    max-width: 450px; 
+    margin-left: 180px ;
+    font-weight: bold;
+    text-align: left;
+  
+}
+
+.container {
+    /* width: 100%; */
+    height: 10vh;
+    display: flex;
+    /* justify-content: center; */
+    
+    
+  }
+  
+  .gradient {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    box-shadow:
+        0px 100px 180px 50px rgba(252, 196, 5, 100), /* Middle color with reduced opacity */
+        0px 0 140px 100px rgba(252, 5, 26, 60); /* Red color with reduced opacity */
+    margin-left: 400px;
+    margin-top: 100px;
+    
+  }
+
+.hero p {
+    font-size: 15px;
+    color: #666;
+    text-align: left;
+    max-width: 450px;
+    margin-left: 180px ;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+    margin-right: 51rem;
+}
+
+.get-started, .watch-video {
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+.watch-video{
+    background-color:white;
+    color: black;
+    font-weight:bold;
+    border-radius: 3px;
+    padding: 5px 5px;
+    margin-top: 30px;
+}
+
+.get-started{
+    background-color:black;
+    color: white;
+}
+
+
+
+
+/* Container for the phones */
+.phone-container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/* Common styles for all phone mockups */
+.phone {
+    position: absolute;
+    width: 400px; /* Adjust the width as needed */
+    height: 500px;;
+    
+    
+}
+
+/* First phone (leftmost) */
+.phone:nth-child(1) {
+    /* top: 50px; */
+    bottom: 280px;
+    left: 600px;
+    transform: rotate(-10deg);
+    z-index: 1;
+    height: 600px;
+    
+}
+
+/* Second phone (center) */
+.phone:nth-child(2) {
+    bottom: 320px;
+    left: 500px;
+    transform: rotate(-10deg);
+    z-index: 2;
+    height: 600px;
+    width:380px;
+     
+    
+}
+/* Third phone (rightmost) */
+.phone:nth-child(3) {
+    bottom: 350px;
+    left: 370px;
+    transform: rotate(-10deg);
+    z-index: 3;
+    height: 600px;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.circle1 {
+    width: 230px;
+    height: 500px;
+    top: -350px; 
+    left: 600px; 
+    border-width: 2px;
+    border-color: #000;
+    transform: rotate(-50deg);
+
+}
+
+.circle2 {
+    width: 100px;
+    height: 350px;
+    top: -280px; 
+    left: 700px; 
+    border-width: 2px;
+    border-color: #000;
+    transform: rotate(-40deg);
+}
+
+.circle3 {
+    width: 210px;
+    height: 580px;
+    top: -400px; 
+    left: 650px; 
+    border-width: 2px;
+    border-color: #000;
+    transform: rotate(-53deg);
+}
+
+.gradient-container {
+    /* width: 100%; */
+    height: 10vh;
+    display: flex;
+    /* justify-content: center; */
+    
+    
+  }
+  
+  .phone-gradient {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    box-shadow:
+        0px 100px 180px 50px rgba(252, 196, 5, 100), /* Middle color with reduced opacity */
+        0px 0 140px 100px rgba(252, 5, 26, 100); /* Red color with reduced opacity */
+    margin-left: 1150px;
+    margin-top: -550px;
+    
+  }
+
+  .line{
+    margin-left: 200px;
+    margin-top: -700px;
+
+  }
+
+.play{
+    align-items: center;
+    height: 25px;
+}
+
+
+.Group-logo{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.span,.span2{
+color:#FF5555;
+
+}
+
+footer {
+    background-color: #fff;
+    color: #000;
+    padding: 40px 0;
+    /* border-top: 1px solid #ddd; */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    font-weight:bold;
+    color: #000;
+}
+
+.footer-section .logo {
+    width: 100px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #444;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 2rem;
+    }
+    nav ul {
+        gap: 20px;
+        margin-right: 2rem;
+    }
+    .download {
+        margin-right: 2rem;
+    }
+    .hero h1, .hero p {
+        margin-left: 1rem;
+        max-width: none;
+        text-align: center;
+    }
+    .cta-buttons {
+        margin-right: 0;
+        text-align: center;
+    }
+    .phone-container {
+        width: 100%;
+        height: auto;
+    }
+    .phone {
+        position: relative;
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .circle {
+        display: none;
+    }
+    .line {
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    .gradient-container, .phone-gradient {
+        display: none;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .logo {
+        margin: 0;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+    .download {
+        margin: 10px 0;
+    }
+    .hero h1 {
+        font-size: 1.8em;
+        margin-left: 0;
+    }
+    .hero p {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .cta-buttons {
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0;
+    }
+    .phone-container {
+        width: 100%;
+        height: auto;
+    }
+    .phone {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+}
